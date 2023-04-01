@@ -1,0 +1,28 @@
+{
+  "name": "webpack-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode=development",
+    "prod": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nzend/Webpack-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nzend/Webpack-tutorial/issues"
+  },
+  "homepage": "https://github.com/nzend/Webpack-tutorial#readme",
+  "dependencies": {
+    "webpack-cli": "^5.0.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.77.0",
+    "webpack-dev-server": "^4.13.2"
+  }
+}
